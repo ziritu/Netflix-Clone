@@ -1,0 +1,62 @@
+.footer_outer_container{
+    background-color: black;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+ .footer_inner_container{ 
+     width: 60%; 
+    
+     
+} 
+.footer_icon{
+ padding-left: 0;
+ padding-right: 0%;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+     list-style: none;
+}
+.icons{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+ }
+
+
+.footer-data-one {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px;
+}
+
+
+.footer-one ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+} 
+ 
+.footer_li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  } 
+.Service_Code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #fff 1px solid;
+    width: 110px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.copy_write{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
