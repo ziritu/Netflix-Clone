@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import Logo from "../../Image/Netflix_Logo_PMS.png";
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationIcon from '@mui/icons-material/Notifications';
 import AccountIcon from '@mui/icons-material/AccountCircle';
@@ -11,6 +12,9 @@ const Header = () => {
       <div className="header_container">
         
         <ul>
+          
+          <li><img src={Logo} alt="" width="80px"/></li>
+
           <li>Home</li>
           <li>TV Shows</li>
           <li>Movies</li>

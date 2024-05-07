@@ -2,7 +2,7 @@ import React from 'react'
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import "./footer.css"
+import "./footer.css";
 const Footer= () => {
   return (
     <div className="footer_outer_container">
@@ -17,31 +17,36 @@ const Footer= () => {
         </div>
         <div className="footer_li">
           <div className="footer_data">
+          <h6>Audio Descrption</h6>
+
             <ul className='footer-data-one'>
 
               
-              <li>Audio Descrption</li>
+               
               <li>Investor Relations</li>
               <li>Legal Notice</li>
             </ul>
           </div>
-          <div className='footer-one'>
-            <ul>
-              <li>Help Center</li>
+          <div className='footer_data'>
+
+          <h6>Help Center</h6>
+            <ul> 
               <li>Jobs</li>
               <li>Cooie preferences</li>
             </ul>
           </div>
-          <div className='footer-one'>
+          <div className='footer_data'>
+          <h6>Gift Cards</h6>
             <ul>
-              <li>Gift Cards</li>
+              
               <li>Terms of Use</li>
               <li>Corporate information</li>
             </ul>
           </div>
-          <div className='footer-one'>
+          <div className='footer_data'>
+          <h6>Media </h6>
             <ul>
-              <li>Media</li>
+              
               <li>Privacy</li>
               <li>Contact Us</li>
             </ul>
@@ -53,9 +58,13 @@ const Footer= () => {
         <div className="copy_write">&copy; 1997-2024 Netflix, Inc.</div>
       </div>
     </div>
-     
   );
 }
 
-    
-export default Footer
+export default Footer
+
+
+ 
+
+ 
+
