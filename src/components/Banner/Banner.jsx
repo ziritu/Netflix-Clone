@@ -43,17 +43,13 @@ style={{
           <h1 className="title">
             {movie?.title || movie?.name || movie?.original_name}
           </h1>
-         {/* <div>
-          document.getElementById("myButton").onclick = function() {
-  alert("Button clicked!") */}
 
           <div className="banner_buttons">
             
             <button className="my-button button1" >Play</button>
             <button className="my-button button2">My List</button>
           </div>
-          {/* </div> */}
-          {/* <h1 className="description">{movie?.overview}</h1> */}
+        
           <h1 className="description">{truncate(movie?.overview, 150)}</h1>
         </div>
         <div className="fade_bottom"></div>
